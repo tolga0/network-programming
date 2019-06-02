@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="anchorPane" prefHeight="277.0" prefWidth="204.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainScreen">
+   <children>
+      <ChoiceBox fx:id="choiceBox" layoutX="26.0" layoutY="65.0" prefWidth="150.0" />
+      <Button fx:id="sendFile" layoutX="26.0" layoutY="119.0" mnemonicParsing="false" onAction="#sendFile" prefHeight="36.0" prefWidth="150.0" text="Send File" />
+      <Button fx:id="receiveFile" layoutX="26.0" layoutY="182.0" mnemonicParsing="false" onAction="#receiveFile" prefHeight="36.0" prefWidth="150.0" text="Receive File" />
+   </children>
+</AnchorPane>

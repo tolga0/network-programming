@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="anchorPane" prefHeight="168.0" prefWidth="197.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client">
+   <children>
+      <TextField fx:id="ipAdress" layoutX="21.0" layoutY="37.0" promptText="IP" />
+      <Button layoutX="108.0" layoutY="93.0" mnemonicParsing="false" onAction="#saveFile" text="Save File" />
+      <Button layoutX="21.0" layoutY="93.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="anchorPane" prefHeight="183.0" prefWidth="212.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Receiver">
+   <children>
+      <Label layoutX="45.0" layoutY="49.0" text="File Name:" />
+      <Label fx:id="label" layoutX="117.0" layoutY="49.0" text="Waiting file" />
+      <Button layoutX="40.0" layoutY="119.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button fx:id="receiveFile" layoutX="40.0" layoutY="79.0" mnemonicParsing="false" onAction="#receiveFile" text="Receive File" />
+   </children>
+</AnchorPane>
